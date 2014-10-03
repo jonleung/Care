@@ -43,7 +43,9 @@
 
 	<script id="sticky-template" type="text/x-handlebars-template">
 	  <div class="col-md-3 sticky-container">
-			<div class="noise sticky">{{message}}</div>
+	  	<div class="sticky-wrapper">
+	  		<div class="noise sticky absolute">{{message}}</div>
+	  	</div>
 		</div>
 	</script>
 
@@ -51,7 +53,8 @@
 
 
 
-	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="bower_components/jqueryui/jquery-ui.min.js"></script>
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
 	<script src="js/helpers.js"></script>	
 	<script src="js/jquery-rotate.js"></script>
