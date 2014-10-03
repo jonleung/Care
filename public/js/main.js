@@ -31,6 +31,7 @@ $(document).ready(function() {
 				Care.appendSticky(sticky);
 				scrollToBottom();
 			});
+			$("#input").hide();
 		})
 	};
 
