@@ -8,3 +8,31 @@
 	resize: none;
 	overflow: hidden;
 }
+
+.stickies {
+	text-align:justify;
+}
+
+/*Note, this is for spacing the stickies vertically distributed properly and is used in conjunction with text-align:justify in .stickies
+.stickes:after {
+	display:inline-block;
+	width:100%;
+	content:'';
+}*/
+
+.sticky-note {
+	/*display: inline-block;*/
+
+	padding: 3em;
+	/*margin: 2em;*/
+	height: 300px;
+	width: 300px;
+
+	background-color: #D19125;
+
+	text-align: center;
+
+	margin-left: auto;
+	margin-right: auto;
+
+}
