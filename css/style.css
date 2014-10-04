@@ -1,0 +1,10 @@
+* {
+	border: red 1px dotted;
+}
+
+.input {
+	width: 80%;
+	height: 200px;
+	resize: none;
+	overflow: hidden;
+}
