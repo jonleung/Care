@@ -9,6 +9,8 @@
 		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
 		<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/reset.css">
+
 		<link rel="stylesheet" href="css/style.css">
 	</head>
 
@@ -23,7 +25,7 @@
 
 	  	<div class="row">
 				<div class="col-md-offset-4 col-md-4 text-center">
-	  			<textarea class="input"></textarea>
+	  			<textarea autofocus id="new-wish-input" class="input"></textarea>
 	  			<br>
 	  			<input class="btn btn-primary" type="submit">
 				</div>
@@ -62,6 +64,11 @@
 	  </div>
 
   </body>
+
+	<script src="bower_components/jquery/dist/jquery.js"></script>
+	<script src="bower_components/handlebars/handlebars.min.js"></script>
+
+  <script src="js/main.js"></script>	
 
 
 </html>
