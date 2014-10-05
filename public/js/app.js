@@ -18,10 +18,10 @@ App.appendSticky = function(sticky) {
 	
 	// Offset Sticky Note
 	var marginOffset = 100;
-	$("#stickies .sticky:last-child").last()
-		.rotate(random(-5, 5))
-		.css("margin-right", random(-1 * marginOffset, marginOffset))
-		.css("margin-top", random(-1 * marginOffset, marginOffset));
+	$("#stickies .sticky:last-child").last();
+		// .rotate(random(-5, 5))
+		// .css("margin-right", random(-1 * marginOffset, marginOffset))
+		// .css("margin-top", random(-1 * marginOffset, marginOffset));
 }
 
 App.appendStickies = function(stickies) {
