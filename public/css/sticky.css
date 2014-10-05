@@ -1,0 +1,32 @@
+.stickies {
+	text-align:justify;
+}
+
+.sticky-container {
+	margin-top: 4em;
+	margin-bottom: 2em;
+	text-align: center;
+}
+
+.sticky-wrapper {
+	width: 100%;
+	height: 30%;
+}
+
+.sticky {
+	margin-left: auto;
+	margin-right: auto;
+
+	padding: 1em;
+	height: 300px;
+	width: 300px;
+
+	text-align: center;
+
+	/*Fallback colors*/
+	background-color: #FEF788;
+	background-image: linear-gradient(#FFF890, #F8EA6D);
+	
+	font-family: 'Just Another Hand', cursive;
+	font-size: 2.5em;
+}

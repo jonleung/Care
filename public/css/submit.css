@@ -1,0 +1,35 @@
+textarea:focus {
+	-webkit-box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
+}
+textarea {
+	outline: none;
+	margin-bottom: 1em;
+}
+
+.input {
+	width: 80%;
+	resize: none;
+	overflow: hidden;
+	border: none;
+	text-align: left;
+	padding: 1em;
+}
+
+.submit {
+	background: red;
+	border-radius: 2em;
+	border: none;
+	color: white;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 2.5em;
+	padding-top: 10px;
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.submit:hover {
+	color: red;
+	background: white;
+}

@@ -1,0 +1,9 @@
+body, .board {
+	height: 100%;
+}
+
+.board {
+	background-color: #C3804B;
+	height: 100%;
+	width: 100%;
+}
