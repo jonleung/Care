@@ -16,11 +16,14 @@ $(document).ready(function() {
 		$("#form").submit(function(e) {
 			e.preventDefault();
 
-			var message = $(this).find(".input").val();
+			var input = $(this).find(".input");
+			var message = input.val();
+			input.val("");
 			var params = {message: message};
 			Sticky.create(params).done(function(sticky) {
 				Sticky.data.push(sticky);
 				Care.appendSticky(sticky);
+				debugger
 			});
 		})
 	};
