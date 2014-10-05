@@ -3503,3 +3503,729 @@ Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:38:07 -0600
 Processing by WishesController#index as */*
   [1m[36mWish Load (0.9ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
 Completed 200 OK in 89ms (Views: 85.3ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:41:20 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 73ms (Views: 18.1ms | ActiveRecord: 0.9ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:43:11 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Yum?"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.9ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 02:43:11.355323"], ["message", "Yum?"], ["updated_at", "2014-10-05 02:43:11.355323"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 16ms (Views: 0.7ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:43:21 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:43:24 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 9ms (Views: 7.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:44:35 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:44:55 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:44:56 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:02 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 11ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:04 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:07 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:08 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:17 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 11ms (Views: 10.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:24 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:45:38 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:45:41 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"What?"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:45:41.188466"], ["message", "What?"], ["updated_at", "2014-10-05 02:45:41.188466"]]
+  [1m[35m (1.1ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:46:12 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:46:12 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:46:15 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Fuck!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 02:46:15.369101"], ["message", "Fuck!"], ["updated_at", "2014-10-05 02:46:15.369101"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:46:16 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>""}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:46:16.275768"], ["message", ""], ["updated_at", "2014-10-05 02:46:16.275768"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 1.9ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:46:16 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>""}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 02:46:16.689382"], ["message", ""], ["updated_at", "2014-10-05 02:46:16.689382"]]
+  [1m[36m (1.2ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.6ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:46:17 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>""}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:46:17.100913"], ["message", ""], ["updated_at", "2014-10-05 02:46:17.100913"]]
+  [1m[35m (42.7ms)[0m  commit transaction
+Completed 200 OK in 46ms (Views: 0.5ms | ActiveRecord: 43.2ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:46:29 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.6ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:46:30 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:46:31 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.4ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:46:36 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"FUCK!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:46:36.825058"], ["message", "FUCK!"], ["updated_at", "2014-10-05 02:46:36.825058"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Completed 200 OK in 4ms (Views: 0.4ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:47:19 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:47:19 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:47:29 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:47:29 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:47:30 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.9ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:47:47 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"awefa"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:47:47.350268"], ["message", "awefa"], ["updated_at", "2014-10-05 02:47:47.350268"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.4ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:47:56 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"This is awesome!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 02:47:56.764441"], ["message", "This is awesome!"], ["updated_at", "2014-10-05 02:47:56.764441"]]
+  [1m[36m (1.8ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:48:16 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 14ms (Views: 13.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:48:16 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:48:23 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:48:23 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 20:48:34 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Something is extra?"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 02:48:34.404178"], ["message", "Something is extra?"], ["updated_at", "2014-10-05 02:48:34.404178"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 200 OK in 6ms (Views: 0.7ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:49:24 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/js/rotate.js" for 127.0.0.1 at 2014-10-04 20:49:38 -0600
+
+ActionController::RoutingError (No route matches [GET] "/js/rotate.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (11.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (53.6ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:49:39 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 14ms (Views: 12.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/js/rotate.js" for 127.0.0.1 at 2014-10-04 20:50:07 -0600
+
+ActionController::RoutingError (No route matches [GET] "/js/rotate.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (30.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:50:07 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 16ms (Views: 14.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/js/rotate.js" for 127.0.0.1 at 2014-10-04 20:51:06 -0600
+
+ActionController::RoutingError (No route matches [GET] "/js/rotate.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (28.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:51:07 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 9.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/js/rotate.js" for 127.0.0.1 at 2014-10-04 20:51:26 -0600
+
+ActionController::RoutingError (No route matches [GET] "/js/rotate.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:51:26 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.8ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 105ms (Views: 12.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/js/rotate.js" for 127.0.0.1 at 2014-10-04 20:51:35 -0600
+
+ActionController::RoutingError (No route matches [GET] "/js/rotate.js"):
+  actionpack (4.1.6) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.6) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.6) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.6) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.6) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.6) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.6) lib/rails/engine.rb:514:in `call'
+  railties (4.1.6) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/routes/_table.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.1.6/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (34.0ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:51:35 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:51:41 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:51:44 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:52:06 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 12ms (Views: 11.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:52:13 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 10ms (Views: 8.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:52:25 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:53:37 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.6ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 43ms (Views: 41.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:53:37 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:53:47 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:53:49 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:54:55 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:55:01 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 11.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:55:03 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:55:24 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.8ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:55:24 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:55:26 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 12.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:05 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 16ms (Views: 14.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:05 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:12 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 14.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:12 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 13ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:14 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 13ms (Views: 11.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:19 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 12.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:19 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:21 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 111ms (Views: 109.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:56:25 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:57:32 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 9ms (Views: 8.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:57:42 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 10.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:58:30 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:58:31 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 10.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:58:35 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 15ms (Views: 13.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 20:58:47 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 14ms (Views: 12.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:01:14 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-04 21:01:20 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"FEawfe"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 03:01:20.842718"], ["message", "FEawfe"], ["updated_at", "2014-10-05 03:01:20.842718"]]
+  [1m[35m (2.3ms)[0m  commit transaction
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:01:42 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:02:07 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 11ms (Views: 10.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:02:10 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:02:20 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.2ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:02:26 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 14ms (Views: 13.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:03:05 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.4ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 113ms (Views: 111.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:03:20 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 15ms (Views: 14.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:03:21 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 12ms (Views: 11.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:03:30 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (1.1ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 21ms (Views: 19.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:04:07 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 15ms (Views: 13.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:04:10 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.5ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 15ms (Views: 13.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-04 21:04:17 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.5ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 13ms (Views: 12.0ms | ActiveRecord: 0.5ms)

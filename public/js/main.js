@@ -7,6 +7,12 @@ var Sticky = {};
 
 $(document).ready(function() {
 
+	var scrollToBottom = function() {
+		$('html, body').animate({
+		  scrollTop: $(document).height()
+		}, 'slow');
+	}
+
 	Care.init = function() {
 		Care.fetchAndDisplayStickies();
 		
@@ -23,7 +29,7 @@ $(document).ready(function() {
 			Sticky.create(params).done(function(sticky) {
 				Sticky.data.push(sticky);
 				Care.appendSticky(sticky);
-				debugger
+				scrollToBottom();
 			});
 		})
 	};
@@ -37,6 +43,8 @@ $(document).ready(function() {
 	Care.appendSticky = function(sticky) {
 		var newStickyHtml = Sticky.fillTemplate(sticky);
 		$("#stickies").append(newStickyHtml);
+		debugger
+		$("#stickies .sticky:last-child").last().rotate(random(-5, 5));
 	}
 
 	Care.fetchAndDisplayStickies = function() {

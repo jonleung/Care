@@ -27,7 +27,7 @@
 	  	<div class="row">
 				<div class="col-md-offset-4 col-md-4 text-center" id="new-sticky">
 					<form id="form">
-						<textarea placeholder="What do you care about? What matters to you?" class="input sticky-note"></textarea>
+						<textarea placeholder="What do you care about? What matters to you?" class="input sticky"></textarea>
 						<br>
 						<input class="submit" type="submit" value="Tell The World!">
 					</form>
@@ -43,7 +43,7 @@
 
 	<script id="sticky-template" type="text/x-handlebars-template">
 	  <div class="col-md-3 sticky-container">
-			<div class="noise sticky-note">{{message}}</div>
+			<div class="noise sticky">{{message}}</div>
 		</div>
 	</script>
 
@@ -53,6 +53,8 @@
 
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
+	<script src="js/helpers.js"></script>	
+	<script src="js/jquery-rotate.js"></script>
 
   <script src="js/main.js"></script>	
 
