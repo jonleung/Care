@@ -7,6 +7,7 @@ App.init = function() {
 	Sticky.fillTemplate = Handlebars.compile(source);
 
 	App.loadStickies();
+	App.enforceMaxLength();
 	App.listenForNewStickes();
 };
 
@@ -33,6 +34,19 @@ App.loadStickies = function() {
 	Sticky.fetchAll().done(function(stickies){
 		App.appendStickies(stickies);
 	})
+}
+
+App.enforceMaxLength = function() {
+	$(".input").keyup(function(){  
+    var limit = 130;  
+    var text = $(this).val();  
+    var chars = text.length;  
+	
+    if(chars > limit){  
+      var newText = text.substr(0, limit);  
+      $(this).val(newText);  
+    }  
+	});
 }
 
 App.listenForNewStickes = function() {

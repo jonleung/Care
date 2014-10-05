@@ -4906,3 +4906,72 @@ Started GET "/wishes" for 127.0.0.1 at 2014-10-05 09:58:11 -0600
 Processing by WishesController#index as */*
   [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
 Completed 200 OK in 2ms (Views: 1.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:03:31 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 2ms (Views: 1.1ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:04:04 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"And the things will be that in the end the.And the things will be that in the end the.And the things will be that in the end the."}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 16:04:04.519033"], ["message", "And the things will be that in the end the.And the things will be that in the end the.And the things will be that in the end the."], ["updated_at", "2014-10-05 16:04:04.519033"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:04:24 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 16:04:24.224060"], ["message", "WWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWWW"], ["updated_at", "2014-10-05 16:04:24.224060"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:04:32 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW "}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.9ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 16:04:32.295456"], ["message", "WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW "], ["updated_at", "2014-10-05 16:04:32.295456"]]
+  [1m[35m (1.5ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.5ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:04:37 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW "}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 16:04:37.776650"], ["message", "WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW WWWW "], ["updated_at", "2014-10-05 16:04:37.776650"]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.1ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:05:14 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 16:05:14.444127"], ["message", "Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD!"], ["updated_at", "2014-10-05 16:05:14.444127"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.5ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:05:23 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD! HAZA"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-05 16:05:23.541131"], ["message", "Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD! HAZA"], ["updated_at", "2014-10-05 16:05:23.541131"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.0ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-05 10:05:31 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.0ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-05 16:05:31.599842"], ["message", "Wonder in the world and the things will be the case. Good is the Things in the GOD and THE THINGS WILL BE AMAZING! AND AOOGD!"], ["updated_at", "2014-10-05 16:05:31.599842"]]
+  [1m[35m (1.4ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.5ms)
