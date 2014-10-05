@@ -43,8 +43,13 @@ $(document).ready(function() {
 	Care.appendSticky = function(sticky) {
 		var newStickyHtml = Sticky.fillTemplate(sticky);
 		$("#stickies").append(newStickyHtml);
-		debugger
-		$("#stickies .sticky:last-child").last().rotate(random(-5, 5));
+		
+		// Offset Sticky Note
+		var offset = 100;
+		$("#stickies .sticky:last-child").last()
+			.rotate(random(-5, 5))
+			.css("margin-right", random(-1 * offset, offset))
+			.css("margin-top", random(-1 * offset, offset));
 	}
 
 	Care.fetchAndDisplayStickies = function() {
