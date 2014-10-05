@@ -4999,3 +4999,15 @@ Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:10:22 -0600
 Processing by WishesController#index as */*
   [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
 Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:11:13 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 4ms (Views: 3.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:11:21 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.3ms)
