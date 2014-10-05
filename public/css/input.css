@@ -1,11 +1,13 @@
+textarea {
+	outline: none;
+	margin-bottom: 1em;
+	text-align: left!important;
+}
+
 textarea:focus {
 	-webkit-box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
 	-moz-box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
 	box-shadow: 10px 10px 29px -6px rgba(0,0,0,0.75);
-}
-textarea {
-	outline: none;
-	margin-bottom: 1em;
 }
 
 .input {
@@ -13,7 +15,6 @@ textarea {
 	resize: none;
 	overflow: hidden;
 	border: none;
-	text-align: left;
 	padding: 1em;
 }
 

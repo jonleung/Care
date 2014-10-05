@@ -5038,3 +5038,39 @@ Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:25:53 -0600
 Processing by WishesController#index as */*
   [1m[35mWish Load (584.3ms)[0m  SELECT "wishes".* FROM "wishes"
 Completed 200 OK in 590ms (Views: 5.1ms | ActiveRecord: 584.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:27:34 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:27:50 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:29:01 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.2ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:31:05 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:31:09 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 3.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-05 10:32:20 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 6ms (Views: 4.7ms | ActiveRecord: 0.3ms)
