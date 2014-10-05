@@ -24,45 +24,33 @@
 	  	</div>
 
 	  	<div class="row">
-				<div class="col-md-offset-4 col-md-4 text-center">
-	  			<textarea class="input sticky-note"></textarea>
-	  			<br>
-	  			<input class="btn btn-primary" type="submit">
+				<div class="col-md-offset-4 col-md-4 text-center" id="new-sticky">
+					<form id="form">
+						<textarea class="input sticky-note"></textarea>
+						<br>
+						<input class="submit btn btn-primary" type="submit">
+					</form>
 				</div>
 	  	</div>
 
 			<hr>
-	  	<div class="row noise board">
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-				<div class="col-md-3 sticky-container">
-					<div class="noise sticky-note">I'm a wish!</div>
-				</div>
-
+	  	<div id="stickies" class="row noise board">
+	
 	  	</div>			
 
 	  </div>
 
   </body>
+
+	<script id="sticky-template" type="text/x-handlebars-template">
+	  <div class="col-md-3 sticky-container">
+			<div class="noise sticky-note">{{message}}</div>
+		</div>
+	</script>
+
+
+
+
 
 	<script src="bower_components/jquery/dist/jquery.js"></script>
 	<script src="bower_components/handlebars/handlebars.min.js"></script>
