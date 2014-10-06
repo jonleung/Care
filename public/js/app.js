@@ -21,7 +21,8 @@
 		$stickies.find(".sticky").last()
 			.rotate(App.Helpers.random(-5, 5))
 			.css("margin-right", App.Helpers.random(-1 * marginOffset, marginOffset))
-			.css("margin-top", App.Helpers.random(-1 * marginOffset, marginOffset));
+			.css("margin-top", App.Helpers.random(-1 * marginOffset, marginOffset))
+			.draggable();
 	}
 
 	var appendStickies = function(stickies) {
