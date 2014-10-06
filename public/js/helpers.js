@@ -4,7 +4,7 @@
 	App.ArrayHelpers = {};
 
 	App.scrollToBottom = function() {
-		$('html, body').animate({
+		return $('html, body').animate({
 		  scrollTop: $(document).height()
 		}, 'slow');
 	}

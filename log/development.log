@@ -5409,3 +5409,216 @@ Started GET "/wishes" for 127.0.0.1 at 2014-10-06 10:55:49 -0600
 Processing by WishesController#index as */*
   [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
 Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 10:57:45 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 2ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 10:57:50 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"I care about love!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (1.3ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 16:57:50.236074"], ["message", "I care about love!"], ["updated_at", "2014-10-06 16:57:50.236074"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 200 OK in 6ms (Views: 0.4ms | ActiveRecord: 3.1ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 10:57:56 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"I care about the world!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-06 16:57:56.935755"], ["message", "I care about the world!"], ["updated_at", "2014-10-06 16:57:56.935755"]]
+  [1m[36m (27.9ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 31ms (Views: 0.5ms | ActiveRecord: 28.4ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 10:58:02 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"I care about water!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 16:58:02.211067"], ["message", "I care about water!"], ["updated_at", "2014-10-06 16:58:02.211067"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 10:58:15 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 3ms (Views: 2.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 10:58:16 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 10:58:19 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"FEae"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-06 16:58:19.211300"], ["message", "FEae"], ["updated_at", "2014-10-06 16:58:19.211300"]]
+  [1m[36m (2.0ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 10:58:24 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:00:39 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 6ms (Views: 4.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:00:46 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 3ms (Views: 1.8ms | ActiveRecord: 0.2ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:00:52 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Love!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-06 17:00:52.632266"], ["message", "Love!"], ["updated_at", "2014-10-06 17:00:52.632266"]]
+  [1m[36m (31.6ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 34ms (Views: 0.4ms | ActiveRecord: 32.0ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:01:03 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Freedom!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:01:03.277079"], ["message", "Freedom!"], ["updated_at", "2014-10-06 17:01:03.277079"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.2ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:01:09 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Fun!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-06 17:01:09.706639"], ["message", "Fun!"], ["updated_at", "2014-10-06 17:01:09.706639"]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.8ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:01:15 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Mission Driven!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.7ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:01:15.722589"], ["message", "Mission Driven!"], ["updated_at", "2014-10-06 17:01:15.722589"]]
+  [1m[35m (1.9ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.2ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:01:26 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 4ms (Views: 3.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:02:03 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.2ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 4ms (Views: 2.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:03:40 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:03:50 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 4ms (Views: 2.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:03:51 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 3.9ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:03:56 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Something new!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:03:56.304738"], ["message", "Something new!"], ["updated_at", "2014-10-06 17:03:56.304738"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:04:06 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 4ms (Views: 3.3ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:04:09 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Something else!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:04:09.462647"], ["message", "Something else!"], ["updated_at", "2014-10-06 17:04:09.462647"]]
+  [1m[35m (1.3ms)[0m  commit transaction
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:06:22 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 6ms (Views: 4.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:06:30 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Love"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:06:30.552336"], ["message", "Love"], ["updated_at", "2014-10-06 17:06:30.552336"]]
+  [1m[35m (1.7ms)[0m  commit transaction
+Completed 200 OK in 5ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:09:55 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.3ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 3.8ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:09:59 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Stuf!"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", "2014-10-06 17:09:59.171086"], ["message", "Stuf!"], ["updated_at", "2014-10-06 17:09:59.171086"]]
+  [1m[35m (1.8ms)[0m  commit transaction
+Completed 200 OK in 4ms (Views: 0.3ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:10:40 -0600
+Processing by WishesController#index as */*
+  [1m[36mWish Load (0.4ms)[0m  [1mSELECT "wishes".* FROM "wishes"[0m
+Completed 200 OK in 5ms (Views: 4.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/wishes" for 127.0.0.1 at 2014-10-06 11:12:15 -0600
+Processing by WishesController#index as */*
+  [1m[35mWish Load (0.3ms)[0m  SELECT "wishes".* FROM "wishes"
+Completed 200 OK in 5ms (Views: 4.2ms | ActiveRecord: 0.3ms)
+
+
+Started POST "/wishes" for 127.0.0.1 at 2014-10-06 11:12:18 -0600
+Processing by WishesController#create as */*
+  Parameters: {"message"=>"Love!"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "wishes" ("created_at", "message", "updated_at") VALUES (?, ?, ?)  [["created_at", "2014-10-06 17:12:18.325315"], ["message", "Love!"], ["updated_at", "2014-10-06 17:12:18.325315"]]
+  [1m[36m (2.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 5ms (Views: 0.4ms | ActiveRecord: 2.9ms)

@@ -62,7 +62,7 @@
 			var params = {message: message};
 			App.Sticky.create(params).done(function(sticky) {
 				appendSticky(sticky);
-				scrollToBottom();
+				App.scrollToBottom();
 			});
 		})
 	}
